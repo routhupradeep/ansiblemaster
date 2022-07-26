@@ -1,0 +1,21 @@
+---
+- mystudents:
+   - name: vinod
+     phone: 123456
+     address:
+      streetno: 5
+      doorno: 54
+      pin: 456456
+   - name: pradeep
+     phone: 21456
+     address: 
+      streetno: 7
+      doorno: 45
+      pin: 258643
+   - name: anwar
+     phone: 45786452
+     address: 
+      streetno: 2
+      doorno: 369
+      pin: 1475632
+
