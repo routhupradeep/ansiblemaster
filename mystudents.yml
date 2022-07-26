@@ -1,5 +1,5 @@
 ---
-- mystudents:
+ - mystudents:
    - name: vinod
      phone: 123456
      address:
