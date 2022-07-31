@@ -1,0 +1,7 @@
+---
+- hosts: 172.31.0.135
+  become: yes
+  tasks:
+  - name: i want execute linux command
+    command: hostname -f 
+    register: myfristvaribleresults 
