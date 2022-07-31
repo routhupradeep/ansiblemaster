@@ -13,3 +13,13 @@
       name: apache2
       state: started
     when: ansible_os_family== "Debian"
+  - name: install mywebserver on redhat ansible nodes
+    apt:
+      name: httpd
+      state: present
+    when: ansible_os_family== "redhat"
+  - name: start webserver on redhat ansible nodes
+    service: 
+      name: httpd
+      state: started
+    when: ansible_os_family== "redhat"
