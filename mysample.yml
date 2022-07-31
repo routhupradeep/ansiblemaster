@@ -5,7 +5,7 @@
   tasks:
   - name: install mywebserver on ubuntu ansible nodes
     apt:
-     name: "{{mywebserverpackonubuntu}}"
+     name: "{{[mywebserverpackonubuntu]}}"
      state: present
     when: ansible_os_family== "Debian"
 

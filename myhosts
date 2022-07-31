@@ -1,2 +1,10 @@
+[mywebservers]
 172.31.0.135
 172.31.11.159
+
+[mywebservers.vars]
+mywebserverpackonubuntu: apache2
+mywebserverpackonredhat: httpd
+
+
+
