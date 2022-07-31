@@ -1,10 +1,10 @@
 ---
-- hosts: mywebservers
+- hosts: mywebserves
   become: yes
   tasks:
   - name: i want install webserver on ubuntu server
     apt:
-     name: "{{mywebserverpackonubuntu}}"
+     name: "{{mywebpackonubuntu}}"
      state: present
     when: ansible_os_family== "Debian"
 
@@ -16,7 +16,7 @@
 
   - name: install mywebserver on RedHat ansible nodes
     yum:
-      name: "{{mywebserverpackonredhat}}"
+      name: "{{mywebserveronredhat}}"
       state: present
     when: ansible_os_family =="RedHat"
 
