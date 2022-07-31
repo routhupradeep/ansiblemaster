@@ -11,6 +11,8 @@
     apt:
      name: tree
      statue: present
+    ignore_errors: false
+ 
 
   - name: install wget
     apt:
