@@ -17,7 +17,7 @@
     when: myfristvaribleresults.stderr ==""
 
   - name: install tree
-    apt: 
+    yum: 
       name: tree
       state: present
     when: myfristvaribleresults.stderr !=""     
